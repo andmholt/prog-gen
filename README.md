@@ -1,6 +1,8 @@
 # prog-gen
 prog-gen is an advanced music chord progression generator
 
+The user can configure the bass octave of the chords, octave range, number of notes, instrument, type of chord progression, and key. The chord is created such that each note will be given a random octave inside the specified range, and extra notes (ex: if user specified 5 notes for a major chord which only requires 3 notes) will be randomly chosen from the specified chord quality as well.
+
 ### External libs
 prog-gen requires the external lib sfml: https://github.com/SFML/SFML
 
