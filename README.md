@@ -8,7 +8,7 @@ prog-gen requires the external lib sfml: https://github.com/SFML/SFML
 
 Be sure to include the sfml library for each object file compilation, and link sfml libs <system> and <audio> in the creation of the final executable, as explained in https://www.sfml-dev.org/tutorials/2.5/start-linux.php
 
-Depending on where sfml is installed to, using `export LD_LIBRARY_PATH=<sfml-install-path>/lib && ./sfml-app` might be necessary as well
+Depending on where sfml is installed to, using `export LD_LIBRARY_PATH=<sfml-install-path>/lib && ./sfml-app` might be necessary as well (where `sfml-app` is the name of your program)
 
 ### Chords
 Recipe for FakeChord is as such:
